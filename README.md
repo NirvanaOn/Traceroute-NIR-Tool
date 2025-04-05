@@ -52,8 +52,42 @@ To install the dependencies, run:
 
 ```bash
 pip install -r requirements.txt
+python traceroute_os_detection.py
+Enter IP or Domain : 8.8.8.8
 
-```bash
-python .py
+Tracing route to 8.8.8.8...
+
+Hop 1 : 192.168.1.1 || RTT : 92.61ms || TTL = 64 || OS Detected : Linux/Unix || Location Found : (Unknown, Unknown, 0, 0) || TTL Normal
+Hop 2 : No Reply
+Hop 3 : 10.244.11.1 || RTT : 55.71ms || TTL = 62 || OS Detected : Linux/Unix || Location Found : (Unknown, Unknown, 0, 0) || Private IP in public trace
+Hop 4 : 52.95.67.33 || RTT : 80.07ms || TTL = 248 || OS Detected : Cisco/Networking Device || Location Found : (India, Mumbai, 19.076, 72.8777) || TTL Normal
+```
+...
+
+
+### ⚙️ Customizable Parameters
+
+**Max_hops:** Customize the maximum number of hops for traceroute.
+
+**Timeout:** Set a timeout for each hop response.
+
+Supports both IP addresses and domain names as targets.
+
+### 🚧 Contribution
+**Contributions are welcome for:**
+
+Improving the OS detection algorithm.
+
+Adding more advanced anomaly detection features.
+
+Improving performance for larger networks.
+
+### 📬 Contact
+
+**Your Name -**@nirvana 
+Project Link: https://github.com/yourusername/traceroute-nir-tool
+
+
+
 
 
