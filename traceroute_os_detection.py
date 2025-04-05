@@ -40,7 +40,6 @@ def is_private_ip(ip):
 
 
 def is_ttl_suspicious(reply_ttl, sent_ttl):
-    # Normally, reply TTL should be > 1 if it came from beyond one hop
     return reply_ttl <= 1 < sent_ttl
 
 
