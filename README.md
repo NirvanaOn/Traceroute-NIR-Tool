@@ -64,6 +64,7 @@ Hop 4 : 52.95.67.33 || RTT : 80.07ms || TTL = 248 || OS Detected : Cisco/Network
 ```
 ...
 
+---
 
 ### ⚙️ Customizable Parameters
 
@@ -72,6 +73,8 @@ Hop 4 : 52.95.67.33 || RTT : 80.07ms || TTL = 248 || OS Detected : Cisco/Network
 **Timeout:** Set a timeout for each hop response.
 
 Supports both IP addresses and domain names as targets.
+
+---
 
 ### 🚧 Contribution
 **Contributions are welcome for:**
@@ -82,10 +85,12 @@ Adding more advanced anomaly detection features.
 
 Improving performance for larger networks.
 
-### 📬 Contact
+---
 
-**Your Name -**@nirvana 
-Project Link: ERROR
+
+
+@Nirvana 
+
 
 
 
